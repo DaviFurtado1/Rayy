@@ -1,0 +1,76 @@
+body {
+    background-image: url(../_img/ysl.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-width: 100vh;
+}
+
+div {
+    background: rgba(190, 189, 78, 0.1);
+    border: 3px solid rgba(235, 209, 95, 0.664);
+    text-align: center;
+    backdrop-filter: blur(16px);
+    margin: 600px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    font-weight: bold;
+    color: #ffffff;
+    font-size: larger;
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.25), 0 0 20px rgba(18, 207, 220, 0.15);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    margin-bottom: 0%;
+}
+
+.h1 {
+    text-align: center;
+    background-image: linear-gradient(rgba(118, 119, 46, 0.2), rgba(124, 134, 31, 0.05)), linear-gradient(135deg, rgba(100, 104, 47, 0.6), rgba(90, 99, 42, 0.05));
+    color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: solid 2px rgb(201, 190, 38);
+    border-radius: 12px;
+    padding: 15px 20px;
+    font-style: italic;
+    backdrop-filter: blur(7px);
+    margin-top: -5px;
+}
+
+input {
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    font-size: 20px;
+}
+
+input:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    color: black;
+    background-color: blanchedalmond;
+}
+
+.botao:hover {
+    background: #fcfcfc;
+    color: black;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.7);
+    transform: translateY(-2px) rotateX(4deg) rotateY(-4deg);
+}
+
+.botao {
+    margin-top: 10px;
+    padding: 12px 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    background: rgba(254, 255, 255, 0.2);
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(253, 253, 253, 0.3);
+    margin: 10px;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+}

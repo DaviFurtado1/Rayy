@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="_css\balenciaga.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>balenciaga</title>
+</head>
+<body>
+    <h1 class="h1">balenciaga</h1>
+    <div>
+        <h1>Para escolhar sua peça por favor faça o cadastro!</h1>
+        <form action="balenciaga.php" method="post">
+
+            <label for="nome">
+                <p>Nome completo:</p>
+                <input type="text" name="nome" placeholder="digite seu nome" id="nome">
+            </label>
+            <p></p>
+
+            <label for="email">
+                <p>Email para contato:</p>
+                <input type="email" name="email" placeholder="digite seu email">
+            </label>
+            <p></p>
+
+            <label for="endereco">
+                <p>Endereço para envio:</p>
+                <input type="text" name="endereco" placeholder="digite seu endereço">
+            </label>
+            <p></p>
+
+            <label for="telefone">
+                <p>Telefone para contato:</p>
+                <input type="number" name="telefone" id="telefone">
+            </label>
+            <p></p>
+
+            <label for="peça de roupa escolhida">
+
+                <h1>Linhas e roupas:</h1>
+                
+                <input type="checkbox" value="triple" name="triple">Triple S Sneaker
+                <p></p>
+                <input type="checkbox" value="blazer" name="blazer">Hourglass Blazer
+                <p></p>
+                <input type="checkbox" value="hoodie" name="hoodie">Oversized Logo Hoodie
+                <p></p>
+                <input type="checkbox" value="speed" name="speed">Speed Trainer
+            </label>
+            <p></p>
+
+            <h1>Enviar respostas</h1>
+
+            <input class="botao" type="submit" value="ENVIAR">
+            <input class="botao" type="reset" value="LIMPAR">
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../_img/background-predileta-moda.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+.h1 {
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(18, 207, 220, 0.05)), linear-gradient(135deg, rgba(183, 0, 255, 0.6), rgba(255, 255, 255, 0.05));
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 2px rgb(195, 0, 255);
+    border-radius: 12px;
+    padding: 15px 20px;
+    font-style: italic;
+    backdrop-filter: blur(7px);
+}
+
+div {
+    background: rgba(111, 3, 252, 0.1);
+    border: 3px solid rgba(225, 0, 255, 0.5);
+    text-align: center;
+    backdrop-filter: blur(16px);
+    margin: 550px;
+    margin-top: 280px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px 0 rgba(90, 1, 255, 0.37);
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    box-shadow: 0 10px 30px rgba(81, 0, 255, 0.25), 0 0 20px rgba(18, 207, 220, 0.15);
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    margin-bottom: 0%;
+}
+
+.div h1 {
+    font-family: 'Times New Roman', Times, serif;
+    size: 70px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    cursor: text;
+}
+
+.botao:hover {
+    background: #dd57aa8a;
+    color: #ffffff;
+    box-shadow: 0 0 25px rgba(126, 14, 148, 0.7);
+    transform: translateY(-2px) rotateX(4deg) rotateY(-4deg);
+}
+
+.botao {
+    margin-top: 10px;
+    padding: 12px 24px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 44, 241, 0.2);
+    border: 2px solid #dd30ff;
+    color: black;
+    box-shadow: 0 0 15px rgba(18, 207, 220, 0.3);
+    margin: 10px;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+}
+input{
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    font-size: 20px;
+}
+input:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+    color: black;
+    background-color: #3dc444;
+}

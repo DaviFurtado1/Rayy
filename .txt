@@ -1,0 +1,25 @@
+criar uma aplicação que tenha 4 telas de cadastro, as 4 telas deverão estar relacionadas entre si e salvar no mesmo arquivo, cada cadastro deve ter no mínimo 5 campos.
+boa sorte!
+
+
+trabalho-pro (pasta onde deve ficar o trabalho)
+
+ideia central: um site que unifica sites de marcas diferentes de roupas, e com esse cadastro você escolhe as peças que quer comprar
+
+página central: deve conter as informações sobre o que é o site e a opção de levar as telas das marcas
+
+cada marca deve conter:
+
+-nome
+-email
+-endereço
+-peça de roupa escolhida (deverá mostrar opções de roupas diferentes)
+-telefone para contato
+
+1 marca: bape
+2 marca: prada
+3 marca: Balenciaga
+4 marca: Saint Laurent (YSL)
+
+php: devera salvar todas essas informações no mesmo documento
+ideal: separar no documento por marca
